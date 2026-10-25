@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc0af938-cf18-47c5-9c0f-ded5740efffb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/08_ASSERTION MINDSET (Bắt đầu tư duy test automation)/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08_ASSERTION MINDSET (Bắt đầu tư duy test automation)/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08_ASSERTION MINDSET (Bắt đầu tư duy test automation)/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/08_ASSERTION MINDSET (Bắt đầu tư duy test automation)/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

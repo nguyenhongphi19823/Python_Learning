@@ -121,3 +121,23 @@ print("Test passed")
 #👉 Chạy thử.
 #Bạn sẽ thấy lỗi kiểu:
 #AssertionError
+
+#--BÀI TẬP--#
+
+def has_role(users, role):
+    for user in users:
+        if user["role"] == role:
+            return  True
+    return False
+lst = [
+    {"email": "a@test.com", "role": "admin"},
+    {"email": "b@test.com", "role": "tester"}
+]
+
+assert has_role(lst, "admin") is True
+assert has_role(lst, "manager") is False
+print("Test passed")
+
+
+
+
