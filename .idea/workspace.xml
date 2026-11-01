@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc0af938-cf18-47c5-9c0f-ded5740efffb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/09_STEP TIẾP THEO – OOP (Bắt đầu tư duy Framework)/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_STEP TIẾP THEO – OOP (Bắt đầu tư duy Framework)/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_STEP 6 – OOP THỰC CHIẾN (Giống Framework Automation)/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_STEP 6 – OOP THỰC CHIẾN (Giống Framework Automation)/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08_ASSERTION MINDSET (Bắt đầu tư duy test automation)/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/08_ASSERTION MINDSET (Bắt đầu tư duy test automation)/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,16 +45,16 @@
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/hongphinguyen/PycharmProjects/Python_Learning/08_ASSERTION MINDSET (Bắt đầu tư duy test automation)"
+    "last_opened_file_path": "/Users/hongphinguyen/PycharmProjects/Python_Learning/10_STEP 6 – OOP THỰC CHIẾN (Giống Framework Automation)"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/10_STEP 6 – OOP THỰC CHIẾN (Giống Framework Automation)" />
+      <recent name="$PROJECT_DIR$/09_STEP TIẾP THEO – OOP (Bắt đầu tư duy Framework)" />
       <recent name="$PROJECT_DIR$/08_ASSERTION MINDSET (Bắt đầu tư duy test automation)" />
       <recent name="$PROJECT_DIR$/07_FUNCTION (CỰC QUAN TRỌNG)" />
       <recent name="$PROJECT_DIR$/06_IF-ELSE &amp; LOOP" />
-      <recent name="$PROJECT_DIR$/05_type()" />
-      <recent name="$PROJECT_DIR$/04_Kiểu dữ liệu quan trọng cho Tester" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
