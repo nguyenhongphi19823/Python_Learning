@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc0af938-cf18-47c5-9c0f-ded5740efffb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/09_STEP TIẾP THEO – OOP (Bắt đầu tư duy Framework)/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09_STEP TIẾP THEO – OOP (Bắt đầu tư duy Framework)/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10_STEP 6 – OOP THỰC CHIẾN (Giống Framework Automation)/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10_STEP 6 – OOP THỰC CHIẾN (Giống Framework Automation)/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11_STEP 7 – EXCEPTION HANDLING (RẤT QUAN TRỌNG)/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11_STEP 7 – EXCEPTION HANDLING (RẤT QUAN TRỌNG)/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10_STEP 6 – OOP THỰC CHIẾN (Giống Framework Automation)/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/10_STEP 6 – OOP THỰC CHIẾN (Giống Framework Automation)/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,21 +18,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "nguyenhongphi19823"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;nguyenhongphi19823&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/nguyenhongphi19823/Python_Learning.git",
-    "accountId": "928d2b10-ebad-4f5d-b5fd-476600cd3eac"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/nguyenhongphi19823/Python_Learning.git&quot;,
+    &quot;accountId&quot;: &quot;928d2b10-ebad-4f5d-b5fd-476600cd3eac&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="3JiDJHooPOJ57UKZGpilAfMwnlS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -45,16 +44,16 @@
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/hongphinguyen/PycharmProjects/Python_Learning/10_STEP 6 – OOP THỰC CHIẾN (Giống Framework Automation)"
+    "last_opened_file_path": "/Users/hongphinguyen/PycharmProjects/Python_Learning/11_STEP 7 – EXCEPTION HANDLING (RẤT QUAN TRỌNG)"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/11_STEP 7 – EXCEPTION HANDLING (RẤT QUAN TRỌNG)" />
       <recent name="$PROJECT_DIR$/10_STEP 6 – OOP THỰC CHIẾN (Giống Framework Automation)" />
       <recent name="$PROJECT_DIR$/09_STEP TIẾP THEO – OOP (Bắt đầu tư duy Framework)" />
       <recent name="$PROJECT_DIR$/08_ASSERTION MINDSET (Bắt đầu tư duy test automation)" />
       <recent name="$PROJECT_DIR$/07_FUNCTION (CỰC QUAN TRỌNG)" />
-      <recent name="$PROJECT_DIR$/06_IF-ELSE &amp; LOOP" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />

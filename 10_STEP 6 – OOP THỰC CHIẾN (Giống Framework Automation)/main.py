@@ -243,3 +243,45 @@ manager.add_user("c@test.com", "manager")
 print(manager.count_users())
 print(manager.has_role("manager"))
 
+#BÀI TẬP CHO BẠN
+
+lst = [
+    {"email": "a@test.com", "role": "admin"},
+    {"email": "b@test.com", "role": "tester"}
+]
+class UserManager:
+    def __init__(self, users):
+        self.users = users
+    def has_role(self, role):
+        for user in self.users:
+            if user["role"] == role:
+                return  True
+        return False
+    def get_emails_by_role(self, role):
+        emails = []
+        for user in self.users:
+            if user["role"] == role:
+                emails.append(user["email"])
+        return emails
+
+    def count_users(self):
+        return len(self.users)
+
+    def add_user(self, email, role):
+        new_user = {"email": email, "role": role}
+        self.users.append(new_user)
+
+    def remove_user_by_email(self, email):
+        for user in self.users:
+            if user["email"] == email:
+                self.users.remove(user)
+                break
+
+#Ví dụ kiểm tra:
+manager = UserManager(lst)
+manager.remove_user_by_email("a@test.com")
+assert manager.has_role("admin") is False
+# Email không tồn tại cũng không gây lỗi
+manager.remove_user_by_email("unknown@test.com")
+print(lst)
+
