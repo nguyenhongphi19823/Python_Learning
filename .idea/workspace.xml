@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc0af938-cf18-47c5-9c0f-ded5740efffb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/12_STEP 10 – raise Exception (CỰC KỲ QUAN TRỌNG CHO AUTOMATION)/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12_STEP 10 – raise Exception (CỰC KỲ QUAN TRỌNG CHO AUTOMATION)/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11_STEP 7 – EXCEPTION HANDLING (RẤT QUAN TRỌNG)/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/11_STEP 7 – EXCEPTION HANDLING (RẤT QUAN TRỌNG)/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,16 +43,16 @@
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/hongphinguyen/PycharmProjects/Python_Learning/11_STEP 7 – EXCEPTION HANDLING (RẤT QUAN TRỌNG)"
+    "last_opened_file_path": "/Users/hongphinguyen/PycharmProjects/Python_Learning/12_STEP 10 – raise Exception (CỰC KỲ QUAN TRỌNG CHO AUTOMATION)"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/12_STEP 10 – raise Exception (CỰC KỲ QUAN TRỌNG CHO AUTOMATION)" />
       <recent name="$PROJECT_DIR$/11_STEP 7 – EXCEPTION HANDLING (RẤT QUAN TRỌNG)" />
       <recent name="$PROJECT_DIR$/10_STEP 6 – OOP THỰC CHIẾN (Giống Framework Automation)" />
       <recent name="$PROJECT_DIR$/09_STEP TIẾP THEO – OOP (Bắt đầu tư duy Framework)" />
       <recent name="$PROJECT_DIR$/08_ASSERTION MINDSET (Bắt đầu tư duy test automation)" />
-      <recent name="$PROJECT_DIR$/07_FUNCTION (CỰC QUAN TRỌNG)" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
