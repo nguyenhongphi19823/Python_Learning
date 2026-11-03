@@ -292,5 +292,10 @@ def safe_get_email(user):
     except KeyError:
         return None
 
+def safe_get_email1(user):
+    return user.get("email")
+#.get() nếu không có key ->trả về None mặc định
+
+
 print(safe_get_email({"email": "test@example.com"}))
 print(safe_get_email({"name": "An"}))
