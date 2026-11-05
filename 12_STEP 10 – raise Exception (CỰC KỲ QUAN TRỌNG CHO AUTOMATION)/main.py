@@ -313,3 +313,53 @@ print(get_required_email({"role": "admin"}))
 class UserNotFoundError(Exception):
     pass
 raise UserNotFoundError("User not found")
+
+
+
+lst = [
+    {"email": "a@test.com", "role": "admin"},
+    {"email": "b@test.com", "role": "tester"}
+]
+
+
+
+class UserManager:
+    def __init__(self, users):
+        self.users = users
+    def has_role(self, role):
+        for user in self.users:
+            if user["role"] == role:
+                return  True
+        return False
+    def get_emails_by_role(self, role):
+        emails = []
+        for user in self.users:
+            if user["role"] == role:
+                emails.append(user["email"])
+        return emails
+
+    def count_users(self):
+        return len(self.users)
+
+    def add_user(self, email, role):
+        new_user = {"email": email, "role": role}
+        self.users.append(new_user)
+
+    def remove_user_by_email(self, email):
+        for user in self.users:
+            if user["email"] == email:
+                self.users.remove(user)
+                break
+
+    def get_user_by_email(self, email):
+        for user in self.users:
+            if user["email"] == email:
+                return user
+        raise Exception("User not found")
+
+
+manager = UserManager(lst)
+print(manager.get_user_by_email("a@test.com"))
+manager.get_user_by_email("x@test.com")
+
+
