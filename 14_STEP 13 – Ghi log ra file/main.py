@@ -428,9 +428,43 @@ logging.basicConfig(
     filemode="a",
     format="%(asctime)s - %(levelname)s - %(message)s"
 
+#---BÀI TẬP---
+import logging
+
+logging.basicConfig(
+    level=logging.INFO,
+    filename="automation.log",
+    filemode="a",
+    encoding="utf-8",
+    format="%(asctime)s - %(levelname)s - %(message)s"
+)
+
+logger = logging.getLogger(__name__)
 
 
+class UserManager:
+    def __init__(self, users):
+        self.users = users
+
+    def get_user_by_email(self, email):
+        for user in self.users:
+            if user["email"] == email:
+                return user
+
+        logger.error("User %s not found", email)
+        raise Exception("User not found")
 
 
+users = [
+    {"email": "a@test.com", "role": "admin"},
+    {"email": "b@test.com", "role": "tester"}
+]
+
+manager = UserManager(users)
+
+try:
+    manager.get_user_by_email("x@test.com")
+except Exception as e:
+    print(e)  # User not found
 
 
